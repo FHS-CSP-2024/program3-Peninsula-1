@@ -45,3 +45,46 @@
 #print("\n") # newline
 #print("\t") # tab
 #print("\\") # \
+
+myXVAL = 10
+myxval = 7
+
+print(myXVAL)
+name = 'Chuck'
+number = 100
+newNumber = '100'
+
+print(number/2)
+#Casting example
+print(int(newNumber)/2)
+
+myFloat = 3.54
+
+num1 = 100
+num2 = 75
+num3 = 967
+
+avg = (num1 + num2 + num3)/3
+
+print(f'Average: {avg}')
+print(avg)
+print('Average:', avg)
+print('Average: ' + str(avg))
+
+
+beds = 2
+bath = 2
+address = '123 Main Street'
+city = 'New York City'
+zip = '10001'
+rent = '7000'
+
+print(f'House for rent rent at {address} in {city} ({zip})')
+print(f'\t{beds} bedrooms, {bath} bathrooms')
+print(f'\t rent is ${rent}/month')
+
+
+
+#File path example
+#C:\Users\myname\Documents| OneNote Notebooks
+print('I have a file located at: C:\\Users\\myname\\Documents\\OneNote Notebooks')
